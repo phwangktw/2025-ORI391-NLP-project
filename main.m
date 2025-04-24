@@ -22,4 +22,4 @@ problem_name = input(prompt1);
 prompt2 = "Please input the problem name (Input an integer: [1, 12]: \n";
 opt_method = input(prompt2);
 
-[x,f] = solver(problem_name,opt_method,options);
+[x,f] = solver(problem_name,opt_method);
