@@ -1,4 +1,4 @@
-function [x,f] = solver(problem, method)
+function [x,f,computing_time,iterations] = solver(problem, method)
 
 %add a folder
 addpath('step_selector');
